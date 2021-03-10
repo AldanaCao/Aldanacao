@@ -4,7 +4,7 @@
    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/archivo.css"/>
+    <link rel="stylesheet" href="css/archivos.css"/>
     <link rel="icon" href="img/1.jpg" type="image/x-icon">
     <meta name ="description" content ="Productos para peluquería y barbería, tinturas, nutrición, alisados, baño de crema, todo para barberías.  Envíos sin cargo.">
     <meta name="keywords" content="colorimetria, baño de nutricion, alisados, tintutas, barberia, ampollas, Encotranos en Mar del plata, Bs As">
@@ -20,7 +20,7 @@
     <header>
       <div class="wrapHead">
         <div id="brand">
-          <img src="img/1.jpg" alt="">
+          <img class="imagen_logo" src ="img/cunicalogo.png" alt="">
         </div>
         <nav>
           <ul>
@@ -31,78 +31,83 @@
           </ul>
         </nav>
       </div>
-    </header>		
-            <section class="contacto1">
-              <div class="container">
-                <div class="row col-lg 6 col-sx 6">
-              <h1 class="estamos"> Estamos esperandote</h1>
-             
-              
+    </header>
+    <section>
+      <div class=" formulario container">
+        <div class="row">
+          <div class="col-sx-12 col-lg-12">
+            <h1>Veni a buscar lo que necesites, tenemos mas productos para ofrecerte.<br> Te esperamos </h1>
+
+          </div>
+        </div>
+      </div>
+      <aside>
+        <div class="formulario__mapa container">
+          <div class="row">
+            <div class="col-sx-12 col-12">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.180930602151!2d-57.558219485303795!3d-37.996240052278644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584deaa350bc68b%3A0x64fff856117241aa!2sJujuy%201819%2C%20B7600DCK%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1611322398468!5m2!1ses!2sar" width="1200" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         
             </div>
           </div>
-          </section>
-          <section>
-              <p class="contactos2">
-                 Si queres venir te esperamos en nuestro local
-                 Jujuy 2222, MDQ, Bs as.
-                 O llamanos 22315549-8308/22315-6183648
-                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.180930602151!2d-57.558219485303795!3d-37.996240052278644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584deaa350bc68b%3A0x64fff856117241aa!2sJujuy%201819%2C%20B7600DCK%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1611322398468!5m2!1ses!2sar" width="1100" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                 
-              </p>
-             
-          </section>
-          <section>
-           <div class="container">
-             <div class="row col-log 12 col-sx 12">
-               <h3 class="formulario">Dejanos tu consulta.</h3>
-             </div>
-           </div>
-      <div class="row">
-          <div class="col-lg 12 col-sx 12">
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Telefono</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Telefono">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Escribanos su consulta.</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-             </div>
-          
-             </div>
-            </section>
-
-
-      </div>
-     <div class="container">
-      <div class="row">
-        <div class="columns">
-          <div class="buttom">
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpiar">
-          </div>
-           </div>
         </div>
-      </div>
+      </aside>
+      <aside>
         <div class="container">
           <div class="row">
-            <div class="col-sx-12 col-lg-6">
-            <h1 class="cuadrado">Podes venir a visitarnos y llevarte amplia gamma de producto o te lo alcanzamos si cargo</h1>
+            <div class="col-sx-12 col-lg-12">
+              <form class="needs-validation" novalidate>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationTooltip01">Nombre</label>
+                    <input type="text" class="form-control" id="validationTooltip01" value="nombre" required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationTooltip02">Email</label>
+                    <input type="text" class="form-control" id="validationTooltip02" value="email" required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group purple-border">
+                  <label for="exampleFormControlTextarea4">Envia tu consulta.</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea4" rows="3"></textarea>
+                </div>
+                
+                
+                <button class="btn btn-primary" type="submit">Envia consulta</button>
+              </form>
+
+            </div>
           </div>
         </div>
-        <div class="col-sx-12 col-lg-6">
-          
+      </aside>
+    </section>
+    <div class="footer">
+      <div class="container-fluid">
+      
+        <div class="row">
+          <div class="col-sx-12 lg-9">
+      <p>vistanos en jujuy 1819, Mdq, Bs As</p>
+          </div>
+          <div class="col-sx-12 lg-3">
+      <img class="face" src="img/face.svg">
+      <img class="face" src="img/wha.svg" alt="">
+      <img class="face"src="img/002-logotipo-de-instagram.svg" alt="">
+          </div>
         </div>
-
       </div>
-
-    </body>
-</html>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Diseño Cao María Aldana</p>
+          </div>
+        </div>
+      </div>
+      </body>
+      </html>
+        
