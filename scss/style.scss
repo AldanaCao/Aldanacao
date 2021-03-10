@@ -5,6 +5,19 @@
     
 }
 @import "colores";
+
+@media (min-width: 576px) {  }
+
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) {  }
+@import "colores";
+$columnasp: 150px;
+$columnasp1: 0px;
+$columnasm: 500px;
 $tamañoTitulo:70px;
 $tipodeletra:  'Courier New', Courier, monospace;
 $tamañoletra: 25px;
@@ -44,7 +57,7 @@ header:after{
   clear: both;
 }
 header.fixed-to-top{
-  background: rgba(38, 50, 56, 1);
+  background: rgba(38, 50, 56, 0.5);
 }
 #brand{
   color: #ccc;
@@ -141,4 +154,114 @@ height: 300;
 .face{
     width: 25px;
     border-radius: 50px;
+}
+
+.purple-border textarea {
+  border: 1px solid #6E7878;
+}
+.purple-border .form-control:focus {
+  border: 1px solid #6E7878;
+  box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+}
+
+.green-border-focus .form-control:focus {
+  border: 1px solid #6E7878;
+  box-shadow: 0 0 0 0.2rem rgba(139, 195, 74, .25);
+}
+
+.lineaArgan{
+  padding-top: 150px;
+  margin-left: 450px;
+  color:  rgba(38, 50, 56, 1);
+  text-transform: uppercase;
+  transform: translate(50px, 10px);
+  animation-duration: 5s;
+  animation-name: aparecer;
+
+}
+
+@keyframes aparecer{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+.lineaCoco{
+  padding: 0px ;
+  margin-left: 500px;
+  color: rgba(38, 50, 56, 1);
+  font-weight: 600;
+  text-transform: uppercase;
+  animation-duration: 5s;
+  animation-name: aparecer;
+
+}
+@keyframes aparecer{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+.lineakeratina{
+  padding: 0px;
+  margin-left: 500px;
+  font-weight: 300;
+  color: rgba(38, 50, 56, 1);
+  text-transform: uppercase;
+  animation-duration: 5s;
+  animation-name: aparecer;
+}
+@keyframes aparecer{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+.lineaSalon{
+  padding: 0px ;
+  margin-left: 500px;
+  font-weight: 300;
+  color:  rgba(38, 50, 56, 1);
+  text-transform: uppercase;
+  animation-duration: 5s;
+  animation-name: aparecer;
+  
+}
+@keyframes aparecer{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+
+.lineaRoby{
+  padding: 0px ;
+  margin-left: 500px;
+  font-weight: 300;
+  color: rgba(38, 50, 56, 1);
+  text-transform: uppercase;
+  animation-duration: 5s;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+.primercolumna{
+  background:#6E7878;
 }
