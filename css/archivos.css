@@ -109,11 +109,29 @@ nav li a:hover {
   background: rgba(38, 50, 56, 0.5);
   color: darkgray;
   font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 300px; }
 
-.face {
+.dire {
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 2px;
+  display: inline-flex;
+  box-sizing: border-box;
+  position: absolute; }
+
+.f {
   width: 25px;
-  border-radius: 50px; }
+  border-radius: 50px;
+  margin-left: 150px;
+  display: inline;
+  justify-content: space-between; }
+
+.logo {
+  margin: 150px;
+  width: 50px;
+  border-radius: 50%; }
 
 .purple-border textarea {
   border: 1px solid #6E7878; }
