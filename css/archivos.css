@@ -17,7 +17,8 @@ ul {
   transition: all ease-in-out 0.5s; }
 
 .imagen_logo {
-  border-radius: 50px; }
+  border-radius: 50px;
+  padding: 15px; }
 
 .wrapHead.fixed-to-top {
   width: 96%; }
@@ -39,13 +40,14 @@ header.fixed-to-top {
   background: rgba(38, 50, 56, 0.5); }
 
 #brand {
-  color: #ccc;
+  color: #D6DBDF;
   float: left; }
 
 #brand h1 {
   letter-spacing: 15px;
   text-shadow: 2px 2px 5px #111;
-  font-size: 20px; }
+  font-size: 20px;
+  font-weight: 600; }
 
 nav {
   float: right;
@@ -58,11 +60,11 @@ nav li {
 nav li a {
   padding: 10px 0;
   text-decoration: none;
-  color: #e1e1e1;
+  color: #D6DBDF;
   transition: all ease-in-out 0.5s; }
 
 nav li a:hover {
-  color: #bbb; }
+  color: #D6DBDF; }
 
 #carouselExampleControls {
   padding: 150px;
@@ -72,82 +74,146 @@ nav li a:hover {
 .carousel-item {
   height: 300; }
 
-.main {
+.envio {
+  width: 70%; }
+
+.envioadomicilio {
+  color: rgba(38, 50, 56, 0.5);
+  text-align: center;
+  font-weight: 600;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  font-size: 22px;
-  color: rgba(38, 50, 56, 0.5);
-  padding: 20px;
-  margin: 20px;
+  letter-spacing: 10px;
+  padding: 10px 250px 10px 250px;
+  font-family: "Redressed", cursive;
+  font-size: 50px; }
+
+.note {
+  color: #263238;
+  text-align: center;
   font-weight: 600;
-  font-family: "Courier New", Courier, monospace;
-  padding: 15px;
-  margin: 15px;
-  text-align: center; }
+  letter-spacing: 15px;
+  font-size: 30px;
+  font-family: "Redressed", cursive;
+  padding: 50px 300px 50px 300px; }
 
-.pelu {
-  width: 250px;
-  height: 250px;
-  padding: 50px;
-  margin: 100px; }
+.mayorista {
+  background: #a5a8aa;
+  width: 100%; }
 
-.fo {
-  display: inline-block;
-  background: rgba(38, 50, 56, 0.5);
-  font-weight: 200;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-  justify-content: center; }
+.mayo {
+  color: rgba(38, 50, 56, 0.5);
+  text-align: center;
+  font-family: "Redressed", cursive;
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 3px;
+  font-size: 50px;
+  font-weight: 600; }
 
-.card__body1 {
-  background: rgba(38, 50, 56, 0.5); }
+.mino {
+  color: rgba(38, 50, 56, 0.5);
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-family: "Redressed", cursive; }
+
+.lista {
+  list-style: none;
+  color: #263238;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Redressed", cursive; }
+
+.imgrulos {
+  padding: 0px;
+  height: 300px;
+  width: fit-content; }
 
 .footer {
-  display: flex;
-  justify-content: space-around;
-  background: rgba(38, 50, 56, 0.5);
-  color: darkgray;
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-right: 300px; }
+  background: #263238;
+  width: 100%;
+  height: 150px; }
 
-.dire {
-  text-transform: capitalize;
+.pie_de_footer {
+  background: #4b5255;
+  width: 100%;
+  height: 75px; }
+
+.titulodefooter {
+  color: #161A1A;
   text-align: center;
-  font-weight: 300;
-  letter-spacing: 2px;
-  display: inline-flex;
-  box-sizing: border-box;
-  position: absolute; }
+  padding: 10px;
+  position: relative;
+  top: 10px;
+  font-family: "Redressed", cursive; }
+
+.sub_titulo {
+  color: #161A1A;
+  font-weight: 500;
+  font-family: "Redressed", cursive; }
+
+.contactos {
+  color: #D6DBDF;
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: 600;
+  font-family: "Redressed", cursive; }
+
+.titulo_de_contactos {
+  color: #161A1A;
+  font-family: "Redressed", cursive; }
+
+.telefono {
+  color: #161A1A;
+  font-size: 20px;
+  font-family: "Redressed", cursive;
+  font-weight: 600; }
+
+.envio {
+  color: #D6DBDF;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Redressed", cursive;
+  transform: translate(50px, 10px);
+  animation-duration: 10s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 .f {
   width: 25px;
-  border-radius: 50px;
-  margin-left: 150px;
-  display: inline;
-  justify-content: space-between; }
+  border-radius: 35%;
+  display: inline-block;
+  margin-left: 50px;
+  align-content: center;
+  box-sizing: border-box; }
 
-.logo {
-  margin: 150px;
-  width: 50px;
-  border-radius: 50%; }
+.is {
+  width: 25px;
+  border-radius: 35%;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-sizing: border-box; }
 
-.purple-border textarea {
-  border: 1px solid #6E7878; }
-
-.purple-border .form-control:focus {
-  border: 1px solid #6E7878;
-  box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, 0.25); }
-
-.green-border-focus .form-control:focus {
-  border: 1px solid #6E7878;
-  box-shadow: 0 0 0 0.2rem rgba(139, 195, 74, 0.25); }
+.wa {
+  width: 25px;
+  border-radius: 35%;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-sizing: border-box; }
 
 .lineaArgan {
   padding-top: 150px;
   margin-left: 450px;
   color: #263238;
+  font-family: "Redressed", cursive;
   text-transform: uppercase;
   transform: translate(50px, 10px);
   animation-duration: 5s;
@@ -221,3 +287,43 @@ nav li a:hover {
 
 .primercolumna {
   background: #6E7878; }
+
+.purple-border textarea {
+  border: 1px solid #6E7878; }
+
+.purple-border .form-control:focus {
+  border: 1px solid #6E7878;
+  box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, 0.25); }
+
+.green-border-focus .form-control:focus {
+  border: 1px solid #6E7878;
+  box-shadow: 0 0 0 0.2rem rgba(139, 195, 74, 0.25); }
+
+.gra {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  padding: 150px 100px 50px 100px;
+  background-image: linear-gradient(#717D7E, #3a3737, #5f6a6a, #292B2B, #5d5f5f, #444242); }
+
+.titulogra {
+  color: #D6DBDF;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  display: block; }
+
+.jujuy {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: #D6DBDF; }
+
+.consulta {
+  padding-top: 100px;
+  padding: 50px; }
+
+button {
+  color: #D6DBDF;
+  background: #D6DBDF; }
